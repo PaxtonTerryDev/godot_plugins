@@ -11,5 +11,13 @@ config_version=5
 [application]
 
 config/name="Godot Plugins"
+run/main_scene="uid://um28atuqnv2j"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+
+[autoload]
+
+Settings="*res://addons/game_settings/src/settings.tscn"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/game_settings/plugin.cfg")

@@ -1,0 +1,18 @@
+[gd_scene load_steps=6 format=3 uid="uid://f1tsgmvmdf6x"]
+
+[ext_resource type="Script" uid="uid://tslxvdp6han8" path="res://addons/game_settings/src/settings.gd" id="1_d55i0"]
+[ext_resource type="Script" uid="uid://bihhhk452reue" path="res://addons/game_settings/src/subsystems/accessibility/accessibility_settings.gd" id="2_1rqiu"]
+[ext_resource type="Script" uid="uid://vunlpf6ie3ac" path="res://addons/game_settings/src/subsystems/audio/audio_settings.gd" id="3_q6703"]
+
+[sub_resource type="Resource" id="Resource_hyvty"]
+script = ExtResource("2_1rqiu")
+metadata/_custom_type_script = "uid://bihhhk452reue"
+
+[sub_resource type="Resource" id="Resource_7jxg4"]
+script = ExtResource("3_q6703")
+metadata/_custom_type_script = "uid://vunlpf6ie3ac"
+
+[node name="Settings" type="Node"]
+script = ExtResource("1_d55i0")
+accessibility = SubResource("Resource_hyvty")
+audio = SubResource("Resource_7jxg4")
