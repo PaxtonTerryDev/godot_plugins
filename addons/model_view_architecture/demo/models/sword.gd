@@ -1,1 +1,0 @@
-class_name Sword extends Model
