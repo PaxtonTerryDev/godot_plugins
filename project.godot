@@ -20,4 +20,4 @@ Settings="*res://addons/game_settings/src/settings.tscn"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/game_settings/plugin.cfg")
+enabled=PackedStringArray("res://addons/game_settings/plugin.cfg", "res://addons/model_view_architecture/plugin.cfg", "res://addons/serializer/plugin.cfg")

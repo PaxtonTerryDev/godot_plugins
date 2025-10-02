@@ -1,9 +1,5 @@
 class_name AudioSettings extends SettingSubsystem
 
-func serialize() -> String:
-	printerr("Not Implemented")
-	return ""
-
 func get_setting_groups() -> Array[SettingGroup]:
 	var volume_settings: SettingGroup = SettingGroup.new("Volume").add_setting([master_volume, music_volume, sfx_volume, dialogue_volume])
 	return [volume_settings]
@@ -48,7 +44,7 @@ var is_muted: bool:
 
 
 func _on_master_volume_changed(old_value: int, new_value: int) -> void:
-	pass
+	print("Master volume changed from %s to %s" % [old_value, new_value])
  
 func _on_music_volume_changed(old_value: int, new_value: int) -> void:
 	pass

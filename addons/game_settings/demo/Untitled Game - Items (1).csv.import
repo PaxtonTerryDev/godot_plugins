@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bpcs6cnu0cdeu"
+
+[deps]
+
+files=["res://addons/game_settings/demo/Untitled Game - Items (1).Weight.translation", "res://addons/game_settings/demo/Untitled Game - Items (1).Cost.translation"]
+
+source_file="res://addons/game_settings/demo/Untitled Game - Items (1).csv"
+dest_files=["res://addons/game_settings/demo/Untitled Game - Items (1).Weight.translation", "res://addons/game_settings/demo/Untitled Game - Items (1).Cost.translation"]
+
+[params]
+
+compress=true
+delimiter=0

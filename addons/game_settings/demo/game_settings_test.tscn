@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://um28atuqnv2j"]
+[gd_scene load_steps=2 format=3 uid="uid://um28atuqnv2j"]
+
+[ext_resource type="Script" uid="uid://cytpf5l8f2xib" path="res://addons/game_settings/demo/game_settings_test.gd" id="1_8ffy4"]
 
 [node name="GameSettingsTest" type="Node2D"]
+script = ExtResource("1_8ffy4")
